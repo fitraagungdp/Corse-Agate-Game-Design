@@ -1,0 +1,64 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #1e1e2e;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #3a3a5e;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff5733;
+}
+
+main {
+    margin-top: 20px;
+    background-color: #29293d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #ff5733;
+    border-bottom: 2px solid #ffcc00;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+ul {
+    text-align: left;
+    display: inline-block;
+    margin: auto;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #3a3a5e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
