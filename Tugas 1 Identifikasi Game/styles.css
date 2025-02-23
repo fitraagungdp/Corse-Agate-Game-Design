@@ -4,6 +4,12 @@ body {
     color: #ffffff;
     text-align: center;
     padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #dddddd;
 }
 
 header {
@@ -61,4 +67,44 @@ footer {
     background-color: #3a3a5e;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #ffcc00;
+    color: #1e1e2e;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff5733;
+}
+
+.accordion {
+    background-color: #3a3a5e;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.accordion:hover {
+    background-color: #4a4a7e;
+}
+
+.panel {
+    display: none;
+    padding: 10px;
+    background-color: #29293d;
+}
+
+.panel.active {
+    display: block;
 }
